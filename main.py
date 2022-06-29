@@ -38,6 +38,6 @@ spectrum = calc_spectrum(
 print("did calc")
 spectrum.apply_slit(0.5, "nm")  # simulate an experimental slit
 print("applied")
-spectrum.plot("radiance")
+spectrum.plot("radiance", show=True)
 time.sleep(10)
 print("plotted")
